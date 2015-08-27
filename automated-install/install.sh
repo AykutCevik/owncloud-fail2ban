@@ -2,7 +2,7 @@
 # Automated installer for owncloud fail2ban configuration.
 #
 # Install with this command on your server:
-# curl -s "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/master/automated-install/install.sh" | bash
+# curl -s "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/owncloud-8.0/automated-install/install.sh" | bash
 # Or run the commands below in given order.
 #
 # Script may also run under other versions of owncloud.
@@ -32,8 +32,8 @@ else
 fi
 
 echo "Downloading configurations..."
-sudo curl -o "$FILTERFILE" "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/master/automated-install/fail2ban/filter.owncloud.conf"
-sudo curl -o "$JAILFILE" "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/master/automated-install/fail2ban/jail.owncloud.conf"
+sudo curl -o "$FILTERFILE" "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/owncloud-8.0/automated-install/fail2ban/filter.owncloud.conf"
+sudo curl -o "$JAILFILE" "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/owncloud-8.0/automated-install/fail2ban/jail.owncloud.conf"
 
 echo "Setting log path..."
 echo "logpath = $OWNCLOUDLOG" | sudo tee -a "$JAILFILE"
