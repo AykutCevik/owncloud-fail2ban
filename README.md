@@ -9,4 +9,7 @@ Just execute the following command and the fail2ban filter for owncloud will be 
 
 
 ## Version
-The script has been tested with owncloud 8.0.4 & 8.0.5 and Ubuntu, but may also run under other versions and distributions. If not, please let me know.
+The script has been tested with owncloud 8.1.1 and Ubuntu, but may also run under other versions and distributions. If not, please let me know.
+
+## Owncloud 8.0
+You can find the working installer for all 8.0 versions in the following branch: https://github.com/AykutCevik/owncloud-fail2ban/tree/owncloud-8.0
