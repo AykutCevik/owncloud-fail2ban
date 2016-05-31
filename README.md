@@ -5,7 +5,7 @@ This is an automated installer and updater for fail2ban, which installs and upda
 ## Install
 Just execute the following command and the fail2ban filter for owncloud will be activated and set up:
 
-```curl -s "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/master/automated-install/install.sh" | bash```
+```curl -s "https://raw.githubusercontent.com/AykutCevik/owncloud-fail2ban/owncloud-8.2/automated-install/install.sh" | bash```
 
 
 ## Current version (8.2.*)
