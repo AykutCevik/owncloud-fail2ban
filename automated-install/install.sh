@@ -12,7 +12,7 @@ echo "  _____      ___ __   ___| | ___  _   _  __| |      / _| __ _(_) |___ \| |
 echo " / _ \ \ /\ / / '_ \ / __| |/ _ \| | | |/ _' |_____| |_ / _' | | | __) | '_ \ / _' | '_ \ "
 echo "| (_) \ V  V /| | | | (__| | (_) | |_| | (_| |_____|  _| (_| | | |/ __/| |_) | (_| | | | |"
 echo " \___/ \_/\_/ |_| |_|\___|_|\___/ \__,_|\__,_|     |_|  \__,_|_|_|_____|_.__/ \__,_|_| |_|"
-echo "            __Owncloud 9.0 fail2ban installer__"
+echo "            __Owncloud 9.* fail2ban installer__"
 echo ""
 
 JAILFILE="/etc/fail2ban/jail.d/owncloud.conf"
@@ -22,7 +22,7 @@ if [[ -f $JAILFILE ]];then
     echo "Already installed, updating owncloud filter."
     OWNCLOUDLOG=$(awk -F "=" '/logpath/ {print $2}' $JAILFILE)
 else
-	echo "Installing. Please provide your owncloud log path once. Updates will fetch it automatically."
+    echo "Installing. Please provide your owncloud log path once. Updates will fetch it automatically."
     echo "Owncloud logpath: "
     read OWNCLOUDLOG </dev/tty
 
