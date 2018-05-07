@@ -11,7 +11,7 @@ Just execute the following command and the fail2ban filter for owncloud will be 
 The script has been tested with owncloud 10.0.8 and Ubuntu, but may also run under other versions and distributions. If not, please let me know.
 
 ## Owncloud 9.*
-Find the installer in the following branch: https://github.com/AykutCevik/owncloud-fail2ban/tree/owncloud-9
+Find the installer in the following branch: https://github.com/AykutCevik/owncloud-fail2ban/tree/owncloud-9.0
 
 ## Owncloud 8.2.*
 Find the installer in the following branch: https://github.com/AykutCevik/owncloud-fail2ban/tree/owncloud-8.2
